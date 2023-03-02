@@ -1,0 +1,27 @@
+{
+  "name": "threejs_basic_tut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "npm run clean && parcel build src/index.html",
+    "clean": "rimraf ./dist ./.cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "@types/three": "^0.149.0",
+    "parcel": "^2.8.3",
+    "parcel-bundler": "^1.12.5",
+    "rimraf": "^4.1.2",
+    "three": "^0.149.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "init": "^0.1.2"
+  }
+}
